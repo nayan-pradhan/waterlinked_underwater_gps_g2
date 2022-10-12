@@ -1,0 +1,10 @@
+<launch>
+
+    <!-- params -->
+    <param name="base_url" type="str" value ="http://192.168.7.1" />
+    <param name="use_antenna" type="int" value="1" />
+
+    <!-- node -->
+    <node name="waterlinked_underwater_gps_g2_node" pkg="waterlinked_underwater_gps_g2" type="get_position.py" output="screen" />
+
+</launch>
